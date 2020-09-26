@@ -11,9 +11,14 @@
             Test button
         </button>
 
+        <label id="test_label">
+            
+        </label>
         <script>
             clicked = async() => {
-                prompt("hello, test!");
+                const result = prompt("hello, test!");
+
+                document.getElementById("test_label").innerHTML = result;
             }
         </script>
     </body>
