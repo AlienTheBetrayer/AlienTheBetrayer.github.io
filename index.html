@@ -2,10 +2,19 @@
 <html>
     <head>
         <title>
-            Test site
+            Test button site
         </title>
     </head>
+
     <body>
-        it works wtf
+        <button onclick="clicked()">
+            Test button
+        </button>
+
+        <script>
+            clicked = async() => {
+                prompt("hello, test!");
+            }
+        </script>
     </body>
 </html>
